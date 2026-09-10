@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Najma Abdi – portefølje</title>
+<meta name="description" content="Portefølje for Najma Abdi, IT-student ved USN med fokus på backend og databaser.">
+<meta property="og:title" content="Najma Abdi – portefølje">
+<meta property="og:description" content="IT-student ved USN som liker å lage det som skjer bak skjermen, som API-er og databaser.">
+<meta property="og:image" content="https://nj856.github.io/assets/images/preview.png">
+<meta property="og:url" content="https://nj856.github.io/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#A9DCD3">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="preload" href="assets/fonts/figtree-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="locked">
+
+<div id="intro" role="dialog" aria-label="En eske full av brev">
+  <div class="intro-inner">
+    <button class="hatbox" id="hatbox" aria-label="Åpne esken">
+      <svg viewBox="0 0 300 300" aria-hidden="true">
+        <defs>
+          <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+            <circle cx="6" cy="6" r="3.2" fill="#fff" opacity=".85"/>
+            <circle cx="18" cy="18" r="3.2" fill="#fff" opacity=".85"/>
+          </pattern>
+          <linearGradient id="shade" x1="0" x2="1">
+            <stop offset="0" stop-color="#6b2a45" stop-opacity=".16"/>
+            <stop offset=".28" stop-color="#6b2a45" stop-opacity="0"/>
+            <stop offset=".72" stop-color="#6b2a45" stop-opacity="0"/>
+            <stop offset="1" stop-color="#6b2a45" stop-opacity=".18"/>
+          </linearGradient>
+          <clipPath id="rim"><path d="M40 136 A110 28 0 0 0 260 136 V0 H40 Z"/></clipPath>
+        </defs>
+
+        <ellipse cx="150" cy="262" rx="120" ry="18" fill="#3A2A3F" opacity=".12"/>
+
+        <!-- Esken -->
+        <path d="M40 136 V244 A110 28 0 0 0 260 244 V136 Z" fill="#F9D3DC"/>
+        <path d="M40 136 V244 A110 28 0 0 0 260 244 V136 Z" fill="url(#dots)"/>
+        <path d="M40 136 V244 A110 28 0 0 0 260 244 V136 Z" fill="url(#shade)"/>
+        <path d="M40 136 V244 A110 28 0 0 0 260 244 V136" fill="none" stroke="#3A2A3F" stroke-width="3" stroke-linejoin="round"/>
+        <ellipse cx="150" cy="136" rx="110" ry="28" fill="#EBA9BA" stroke="#3A2A3F" stroke-width="3"/>
+
+        <!-- Brev som stikker opp inni esken -->
+        <g clip-path="url(#rim)" stroke="#3A2A3F" stroke-width="2">
+          <rect x="88" y="104" width="54" height="40" rx="3" fill="#FFFDF8" transform="rotate(-10 115 124)"/>
+          <rect x="128" y="98" width="56" height="42" rx="3" fill="#FFE7A3" transform="rotate(6 156 119)"/>
+          <rect x="166" y="108" width="50" height="36" rx="3" fill="#E3D7F4" transform="rotate(14 191 126)"/>
+          <path d="M129 99 L156 118 L184 102" fill="none" transform="rotate(6 156 119)"/>
+        </g>
+
+        <!-- Navnelapp -->
+        <g transform="translate(150 206) rotate(-4)">
+          <rect x="-60" y="-19" width="120" height="38" rx="19" fill="#FFFDF8" stroke="#3A2A3F" stroke-width="2.5"/>
+          <text y="8" text-anchor="middle" font-family="Caveat, 'Segoe Print', cursive" font-size="25" font-weight="700" fill="#3A2A3F">Najma ♡</text>
+        </g>
+
+        <!-- Lokket -->
+        <g class="lid">
+          <path d="M28 108 V134 A122 30 0 0 0 272 134 V108" fill="#FBE1E7" stroke="#3A2A3F" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M28 114 V126 A122 30 0 0 0 272 126 V114 A122 30 0 0 1 28 114 Z" fill="#E0819A"/>
+          <path d="M28 108 V134 A122 30 0 0 0 272 134 V108" fill="none" stroke="#3A2A3F" stroke-width="3"/>
+          <ellipse cx="150" cy="108" rx="122" ry="30" fill="#FDEEF2" stroke="#3A2A3F" stroke-width="3"/>
+          <ellipse cx="150" cy="108" rx="96" ry="21" fill="none" stroke="#F4BFCB" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+          <!-- Sløyfe -->
+          <g transform="translate(150 150)" stroke="#3A2A3F" stroke-width="2.5" stroke-linejoin="round">
+            <path d="M-4 0 L-16 28 L-8 25 L-4 32 Z" fill="#E0819A"/>
+            <path d="M4 0 L16 28 L8 25 L4 32 Z" fill="#E0819A"/>
+            <path d="M0 -2 C-14 -24 -44 -18 -38 -2 C-34 10 -12 6 0 -2 Z" fill="#EE9CB0"/>
+            <path d="M0 -2 C14 -24 44 -18 38 -2 C34 10 12 6 0 -2 Z" fill="#EE9CB0"/>
+            <rect x="-8" y="-9" width="16" height="15" rx="5" fill="#E0819A"/>
+          </g>
+        </g>
+      </svg>
+    </button>
+    <p class="hint" aria-hidden="true">
+      <svg viewBox="0 0 40 40"><path d="M30 34C14 34 6 24 8 8M8 8l-5 8M8 8l7 6" fill="none" stroke="#3A2A3F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Trykk på esken for å åpne
+    </p>
+  </div>
+</div>
+
+<nav aria-label="Hovedmeny">
+  <div class="wrap">
+    <a class="logo" href="#top">najma <span>♡</span></a>
+    <ul>
+      <li><a href="#prosjekter">Prosjekter</a></li>
+      <li><a href="#verktoy">Verktøy</a></li>
+      <li><a href="#om-meg">Om meg</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+  </div>
+</nav>
+
+<svg class="lights" aria-hidden="true"></svg>
+
+<main id="top">
+  <header class="hero">
+    <div class="wrap">
+      <div class="note">
+        <span class="tape pink left" aria-hidden="true"></span>
+        <span class="tape mint right" aria-hidden="true"></span>
+        <p class="sub">Kjære deg som kikker innom,</p>
+        <h1 tabindex="-1" id="hei">Najma Abdi</h1>
+        <p class="lead">Jeg studerer IT ved USN og liker å lage det som skjer bak skjermen, som API-er og databaser.</p>
+        <div class="actions">
+          <a class="btn btn-main" href="#prosjekter">Se hva jeg har laget</a>
+          <a class="btn btn-soft" href="https://github.com/nj856" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="prosjekter">
+    <div class="wrap">
+      <div class="note reveal" style="--r:.5deg">
+        <span class="tape butter left" aria-hidden="true"></span>
+        <p class="sub">Dette har jeg laget</p>
+        <h2>Prosjekter</h2>
+        <p class="intro">Hva jeg selv hadde ansvar for, og hvor du finner koden.</p>
+        <article class="project">
+          <div>
+            <h3>Skapertorget</h3>
+            <p class="context">Eksamensprosjekt i APP2000, gruppe på 6 studenter</p>
+            <p>En nettbasert markedsplass for kjøp og salg av brukte og håndlagde klær, med chat mellom kjøper og selger, tilbakemeldinger, hjelpesenter og betaling via Stripe.</p>
+            <p class="mine"><strong>Min del:</strong> Jeg hadde ansvar for meldingsfunksjonen. Jeg laget datamodellen og REST API-et i Django REST Framework, slik at kjøper og selger kan sende, svare på og slette meldinger om et produkt.</p>
+            <ul class="tags" aria-label="Teknologi">
+              <li>Django</li><li>Django REST Framework</li><li>SQLite</li><li>JavaScript</li><li>Git</li>
+            </ul>
+            <a class="btn btn-soft" href="https://github.com/nj856/Skapertorget_Markedsplass" target="_blank" rel="noopener">Se koden på GitHub</a>
+          </div>
+          <div class="card">
+            <h4>Endepunktene jeg laget</h4>
+            <dl>
+              <dt><span class="method GET">GET</span>/api/chat/messages?chat_id={id}</dt>
+              <dd>Henter alle meldinger i en chat</dd>
+              <dt><span class="method POST">POST</span>/api/chat/messages/send</dt>
+              <dd>Kjøper sender en ny melding</dd>
+              <dt><span class="method POST">POST</span>/api/chat/messages/selger-svar</dt>
+              <dd>Selger svarer kjøperen</dd>
+              <dt><span class="method DELETE">DELETE</span>/api/chat/messages/delete/{id}</dt>
+              <dd>Sletter en melding</dd>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="verktoy">
+    <div class="wrap">
+      <div class="note reveal" style="--r:-.8deg">
+        <span class="tape lilac right" aria-hidden="true"></span>
+        <p class="sub">Klistremerkesamlingen min</p>
+        <h2>Verktøy</h2>
+        <p class="intro">Det jeg har brukt i prosjekter og emner på studiet.</p>
+        <div class="stickers">
+          <div class="s1"><h3>Programmering</h3><ul><li>Python</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>HTML</li><li>CSS</li></ul></div>
+          <div class="s2"><h3>Rammeverk</h3><ul><li>Django</li><li>Django REST Framework</li></ul></div>
+          <div class="s3"><h3>Databaser</h3><ul><li>PostgreSQL</li><li>SQLite</li></ul></div>
+          <div class="s4"><h3>Arbeidsverktøy</h3><ul><li>Git</li><li>GitHub</li><li>VS Code</li></ul></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="om-meg">
+    <div class="wrap about">
+      <div class="note letter reveal">
+        <span class="tape pink left" aria-hidden="true"></span>
+        <h2 class="visually-hidden" style="position:absolute;left:-9999px">Om meg</h2>
+        <p class="greet">Kjære deg som leser,</p>
+        <p>Hvor jeg er fra? Det er litt lang historie. Jeg er født i Bergen, bodde tre år i London, vokste opp i Sandefjord og flyttet til Lørenskog etter videregående. Nå bor jeg i Hønefoss og går siste året på IT ved USN.</p>
+        <p>På fritiden koder jeg for gøy, ser serier og film, gamer eller leser manga.</p>
+        <p>Jeg snakker norsk, engelsk og somalisk, og lærer meg stadig flere språk. De nye har bare litt flere semikolon.</p>
+        <p class="sign">Hilsen Najma</p>
+        <p class="ps">P.S. Takk for at du åpnet esken min ♡</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <div class="wrap">
+      <div class="note cv reveal" style="--r:-.5deg">
+        <span class="tape butter left" aria-hidden="true"></span>
+        <span class="tape lilac right" aria-hidden="true"></span>
+        <p class="sub">Det viktigste fra CV-en min</p>
+        <h2>CV</h2>
+        <div class="cv-grid">
+          <div>
+            <h3>Utdanning</h3>
+            <ul class="entries">
+              <li>
+                <div class="entry-head"><strong>Bachelor i IT og informasjonssystemer</strong><span class="when">2024–2027</span></div>
+                <p class="where">Universitetet i Sørøst-Norge, Campus Hønefoss</p>
+                <p>Pågår, ferdig juni 2027.</p>
+              </li>
+              <li>
+                <div class="entry-head"><strong>Studiespesialisering</strong><span class="when">2020–2023</span></div>
+                <p class="where">Sandefjord videregående skole</p>
+                <p>Blant annet Matematikk S1 og S2.</p>
+              </li>
+            </ul>
+            <h3>Språk</h3>
+            <ul class="entries">
+              <li><div class="entry-head"><strong>Norsk</strong><span class="when">Morsmål</span></div></li>
+              <li><div class="entry-head"><strong>Engelsk og somalisk</strong><span class="when">Flytende</span></div><p class="where">Skriftlig og muntlig</p></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Arbeidserfaring</h3>
+            <ul class="entries">
+              <li>
+                <div class="entry-head"><strong>Renholdsassistent</strong><span class="when">jul.–aug. 2024</span></div>
+                <p class="where">Lørenskog sykehjem, sesongarbeid</p>
+                <p>Renhold av pasientrom og fellesarealer, med ansvar for hygienestandarder og et trygt miljø for beboere og ansatte. Jobbet selvstendig etter faste rutiner.</p>
+              </li>
+              <li>
+                <div class="entry-head"><strong>Salgsmedarbeider</strong><span class="when">mai–jun. 2024</span></div>
+                <p class="where">NORMAL Strømmen, praksisplass</p>
+                <p>Varepåfylling, ryddige butikklokaler og kundeservice, blant annet ved å hjelpe kunder med å finne produkter.</p>
+              </li>
+              <li>
+                <div class="entry-head"><strong>Operasjon Dagsverk</strong><span class="when">okt. 2019</span></div>
+                <p class="where">Hårek Frisørstudio, Sandefjord</p>
+                <p>Holdt produkthyllene ryddige og presentable, med god oppmerksomhet på detaljer.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="refs-title">Referanser</h3>
+        <p class="refs">Oppgis ved forespørsel.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="kontakt">
+    <div class="wrap">
+      <div class="note reveal">
+        <span class="tape mint left" aria-hidden="true"></span>
+        <span class="tape pink right" aria-hidden="true"></span>
+        <p class="sub">Svar meg gjerne</p>
+        <h2>Skriv et brev til meg</h2>
+        <p>Er du interessert i å jobbe sammen, lurer du på noe om det jeg har laget, eller vil du bare slå av en prat? Skriv noen ord, velg farge på seglet og send. E-postprogrammet ditt åpnes med brevet ferdig skrevet, så du bare trykker send.</p>
+
+        <div class="composer" id="composer">
+          <div class="stage">
+            <div class="paper" id="paper">
+              <p class="dear">Kjære Najma,</p>
+              <label class="visually-hidden" for="msg">Brevet ditt</label>
+              <textarea id="msg" rows="5" placeholder="Hei! Jeg så porteføljen din og …"></textarea>
+              <div class="from">
+                <label for="from">Hilsen</label>
+                <input id="from" type="text" autocomplete="name" placeholder="navnet ditt">
+              </div>
+            </div>
+            <div class="mini-env" aria-hidden="true">
+              <div class="mini-back"></div>
+              <svg class="mini-front" viewBox="0 0 310 200" preserveAspectRatio="none">
+                <path d="M1 1 L150 110 L1 199 Z" fill="#F7C6D0" stroke="#3A2A3F" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+                <path d="M309 1 L160 110 L309 199 Z" fill="#F7C6D0" stroke="#3A2A3F" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+                <path d="M1 199 L155 96 L309 199 Z" fill="#FAD5DD" stroke="#3A2A3F" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+                <path d="M1 1 L309 1 L155 124 Z" fill="#F2AFC0" stroke="#3A2A3F" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+              </svg>
+              <svg class="mini-seal" viewBox="0 0 80 80">
+                <path d="M40 4c7 0 9 5 15 6s11 1 13 7-1 10 1 16 7 9 5 15-8 7-11 12-3 11-9 13-10-2-14-2-9 5-15 2-6-8-10-12-11-4-12-11 4-10 3-16-4-10 0-15 10-3 15-7 7-8 13-8z" fill="var(--wax)"/>
+                <path d="M40 52s-12-7.6-12-15.6a6.4 6.4 0 0 1 12-3.2 6.4 6.4 0 0 1 12 3.2C52 44.4 40 52 40 52z" fill="rgba(0,0,0,.18)"/>
+              </svg>
+            </div>
+            <div class="sent" id="sent" tabindex="-1">
+              <p class="big">Brevet er på vei ♡</p>
+              <p>E-postprogrammet ditt skal ha åpnet seg nå. Trykk send der, så får jeg brevet ditt.</p>
+              <p class="small">Åpnet det seg ikke? Send det til <a href="mailto:najma845abdi@outlook.com">najma845abdi@outlook.com</a>.</p>
+              <button class="btn btn-soft" type="button" id="again">Skriv et nytt brev</button>
+            </div>
+          </div>
+
+          <fieldset class="wax-pick">
+            <legend>Velg farge på seglet</legend>
+            <label><input type="radio" name="wax" value="#C9425F" checked><span style="--c:#C9425F"></span>Rød</label>
+            <label><input type="radio" name="wax" value="#E0819A"><span style="--c:#E0819A"></span>Rosa</label>
+            <label><input type="radio" name="wax" value="#9B7CC9"><span style="--c:#9B7CC9"></span>Lilla</label>
+            <label><input type="radio" name="wax" value="#3E9C8E"><span style="--c:#3E9C8E"></span>Blågrønn</label>
+          </fieldset>
+          <button class="btn btn-main send" type="button" id="send">
+            <svg class="wiggle" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2" fill="#fff"/><path d="M3 6l9 7 9-7" fill="none" stroke="#C9425F" stroke-width="2"/></svg>
+            Forsegle og send
+          </button>
+          <p class="status" id="status" role="status" aria-live="polite"></p>
+        </div>
+
+        <p class="elsewhere">Eller finn meg her:</p>
+        <div class="actions small-actions">
+          <a class="btn btn-soft" href="mailto:najma845abdi@outlook.com">E-post</a>
+          <a class="btn btn-soft" href="tel:+4740564872">Ring +47 405 64 872</a>
+          <a class="btn btn-soft" href="https://github.com/nj856" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-soft" href="https://www.linkedin.com/in/najma-abdi-b81400397/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Laget med ♡ av Najma Abdi, 2026</p>
+  <button id="replay" type="button">Legg brevene tilbake i esken</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
